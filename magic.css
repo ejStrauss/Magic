@@ -1,0 +1,290 @@
+body {
+  overflow: hidden;
+  display: inline-block;
+  color: #c7c683
+}
+.wallpapers {
+  z-index: 30;
+  position: fixed;
+  display: none;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: repeat;
+}
+#curtains {
+  z-index: -1;
+  display: inline-block;
+}
+#skyWin {
+  display: none;
+}
+#skyLose {
+  display: none;
+}
+.cats {
+  z-index: 50;
+  position: absolute;
+  display: none;
+  left: 52em;
+  top: 5em;
+  width: 30em;
+  height: auto;
+  border: .1em solid #774405;
+  border-radius: 5em;
+}
+#cat1 {
+  z-index: 2;
+}
+#catBrag {
+  z-index: 55;
+}
+#spread {
+  display: none;
+  position: absolute;
+  top: 9em;
+  width: 55em;
+  height: auto;
+}
+.cards {
+  display: none;
+  position: absolute;
+  top: 7em;
+  left: 18.25em;
+  width: 14em;
+  height: auto;
+}
+#cardFront {
+  z-index: 2;
+}
+.hatEnd {
+  z-index: 50;
+  display: none;
+  position: absolute;
+  top: 23.5em;
+}
+#hatWinL {
+  left: 4.5em;
+}
+#hatWinR {
+  left: 30.5em;
+}
+#hatLoseL {
+  display: none;
+  width: 20em;
+  height: auto;
+  left: 5em;
+  top: 18em;
+}
+#hatLoseR {
+  display: none;
+  width: 20em;
+  height: auto;
+  left: 29em;
+  top: 18em;
+}
+.heads {
+  display: inline-block;
+  position: absolute;
+}
+h1 {
+  top: -.25em;
+  left: 1em;
+  font-size: 3em;
+  font-style: oblique;
+  color: #a57c79;
+}
+h2 {
+  top: 2.5em;
+  left: 20em;
+}
+#prompt {
+  z-index: 2;
+  display: none;
+  position: absolute;
+  top: 18em;
+  left: 13.25em;
+  font-size: 1.5em;
+  font-family: Georgia;
+  font-weight: bolder;
+}
+#dialogue {
+  display: none;
+  position: absolute;
+  top: -.5em;
+  left: 1em;
+  font-size: 2em;
+  font-weight: bolder;
+  color: #c7c683;
+}
+.doves {
+  z-index: 40;
+  display: none;
+  position: absolute;
+  width: 10em;
+  height: auto;
+}
+#dove1 {
+  top: 20em;
+  left: 7.25em;
+}
+#dove1-2 {
+  top: 20em;
+  left: 33.25em;
+}
+#dove2 {
+  top: 17em;
+  left: 9.5em;
+}
+#dove2-2 {
+  top: 17em;
+  left: 31em;
+}
+#dove3 {
+  top: 13em;
+  left: 13.5em;
+}
+#dove3-2 {
+  top: 13em;
+  left: 27em;
+}
+#dove4 {
+  top: 10em;
+  left: 19em;
+}
+#dove4-2 {
+  top: 10em;
+  left: 22em;
+}
+#iWin {
+  z-index: 60;
+  display: none;
+  position: absolute;
+  top: 2em;
+  left: 20em;
+  width: 40em;
+  height: auto;
+}
+.turkeyVisage {
+  z-index: 99;
+  display: none;
+  position: absolute;
+  top: 3.5em;
+  left: 4.25em;
+  width: 50em;
+  height: auto;
+}
+#turkeyTongue {
+  z-index: 101;
+  top: 6.4em;
+  left: 4.25em;
+  width: 45.5em;
+  height: auto;
+}
+#meatball {
+  z-index: 100;
+  display: none;
+  position: absolute;
+  top: 7em;
+  left: 39em;
+  width: 40em;
+  height: auto;
+}
+.turkeys {
+  z-index: 58;
+  display: none;
+  position: absolute;
+  top: 15em;
+  width: 9em;
+  height: auto;
+}
+#turkeyL1 {
+  z-index: 49;
+  left: 8.5em;
+}
+#turkeyL2 {
+  top: 10.5em;
+  left: 4em;
+}
+#turkeyL3 {
+  top: 17.5em;
+  left: -1em;
+}
+#turkeyL4 {
+  display: inline-block;
+  top: 30em;
+  left: -10em;
+}
+#turkeyR1 {
+  z-index: 49;
+  left: 36em;
+}
+#turkeyR2 {
+  top: 10.5em;
+  left: 40em;
+}
+#turkeyR3 {
+  top: 15em;
+  left: 48em;
+}
+#youLose {
+  z-index: 90;
+  display: none;
+  position: absolute;
+  top: 3em;
+}
+#guess {
+  z-index: 3;
+  display: none;
+  position: absolute;
+  top: 6.25em;
+  left: 22.5em;
+  text-align: center;
+  font-weight: bolder;
+  font-family: serif;
+  color: #2c3237;
+}
+.swan {
+  z-index: 5;
+  display: none;
+  position: absolute;
+  top: 8em;
+}
+#swanUp {
+  left: 10em;
+}
+#swanDown {
+  left: 85em;
+}
+.buttons {
+  z-index: 99;
+  display: none;
+  position: absolute;
+  background-color: transparent;
+  border: none;
+}
+#start {
+  display: inline-block;
+  top: 26em;
+  left: 0;
+  height: 5em;
+  width: 100%;
+}
+#drawCard {
+  top: 37em;
+  width: 60em;
+  height: 12em;
+}
+#nose {
+  top: 20em;
+  left: 80.5em;
+  width: 1em;
+  height: 1em;
+}
+#notCard {
+  top: 8.5em;
+  left: 22em;
+  width: 16.5em;
+  height: 25em;
+}
